@@ -1,0 +1,54 @@
+# Your specified folders
+nooo/
+__pycache__/
+.ipynb_checkpoints/
+
+.pytest_cache/
+
+
+
+results_edgefusion_all/
+
+
+
+# Exclude the problematic results folders (add these!)
+results_edgefusion_all/
+results_edgefusion_all/full_matrix/
+results_edgefusion_all/PAPER_RESULTS/
+
+notebooks/
+
+reproduce_paper_results_updated.py
+
+# Python files
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints (already covered)
+.ipynb_checkpoints/
+
+# Large data/results folders (add if needed)
+*.npz
+*.h5
+*.pkl
+*.pickle
+data/
+datasets/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bat
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,63 @@
+# Quick debug check with timeout
+python download_tum.py --debug --timeout 5
+
+# Download all (with timeout protection)
+python download_tum.py --timeout 30
+
+# Skip existing datasets
+python download_tum.py --skip-existing
+
+# Download specific ones that you know are valid
+python download_tum.py --dataset rgbd_dataset_freiburg1_xyz rgbd_dataset_freiburg2_coke
+
+
+
+
+=====================================================================
+
+
+python run_all_edgefusion_experiments_FULL_MATRIX_FINAL_STATS.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================== VERIFIED
+python matching_comparison_all_poseguard_v4.py ^
+  --image1 "../../Data/Images4Inferebce/22.jpg" ^
+  --image2 "../../Data/Images4Inferebce/20.jpg" ^
+  --pair-output TEST_RESULTS_MIET ^
+  --methods orb_lowe,adalam_orb,edgefusion_full,edgefusion_adaptive_poseguard_v4 ^
+  --include-ablation ^
+  --pair-camera auto ^
+  --nfeatures 1600 ^
+  --measure-memory
+
+
+python matching_comparison_all_poseguard_v4.py ^
+  --image1 "./1305031108.775493.png" ^
+  --image2 "./1305031109.511273.png" ^
+  --pair-output TEST_RESULTS_DS ^
+  --methods orb_lowe,adalam_orb,edgefusion_full,edgefusion_adaptive_poseguard_v4 ^
+  --include-ablation ^
+  --pair-camera auto ^
+  --nfeatures 1600 ^
+  --measure-memory
+
+

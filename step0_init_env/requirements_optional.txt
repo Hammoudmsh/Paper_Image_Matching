@@ -1,0 +1,10 @@
+# Optional repositories are intentionally installed from local clones so the
+# exact commit can be recorded in the benchmark environment snapshot.
+#
+# XFeat:
+#   git clone https://github.com/verlab/accelerated_features.git third_party/accelerated_features
+#   pass --xfeat-repo third_party/accelerated_features
+#
+# LightGlue:
+#   git clone https://github.com/cvg/LightGlue.git third_party/LightGlue
+#   python -m pip install -e third_party/LightGlue --no-deps

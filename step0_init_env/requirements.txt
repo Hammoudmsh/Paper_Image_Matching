@@ -1,0 +1,16 @@
+# Pinned ABI-compatible stack for Python 3.10.
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+matplotlib==3.9.2
+openpyxl==3.1.5
+psutil==6.1.0
+pillow==11.0.0
+tqdm==4.67.1
+opencv-contrib-python==4.11.0.86
+kornia==0.8.0
+onnxruntime==1.20.1
+jupyterlab==4.3.4
+ipykernel==6.29.5
+pytest==8.3.4
+# Install torch/torchvision from the official CPU or CUDA index before this file.
